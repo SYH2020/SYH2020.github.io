@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>代码插入测试</title>
+      <link href="/2021/08/17/code_test/"/>
+      <url>/2021/08/17/code_test/</url>
+      
+        <content type="html"><![CDATA[<p>2021年已经有很多解决方案了，但是教程不好找，最重要的是原来博客的款式没有了啊啊啊啊</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">/* A. Ezzat and Two Subsequences */</span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;algorithm&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main() &#123;</span><br><span class="line">    int t; cin &gt;&gt; t;</span><br><span class="line">    while (t--) &#123;</span><br><span class="line">        int n, Max = -0x7fffffff, x;</span><br><span class="line">        double sum = 0;</span><br><span class="line">        cin &gt;&gt; n;</span><br><span class="line">        for (int i = 1; i &lt;= n; i++) &#123;</span><br><span class="line">            cin &gt;&gt; x;</span><br><span class="line">            sum += x;</span><br><span class="line">            Max = max(Max, x);</span><br><span class="line">        &#125;</span><br><span class="line">        // cout &lt;&lt; Max &lt;&lt; &#x27; &#x27; &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">        printf(&quot;%.8lf\n&quot;, (sum - Max) / (double)(n-1) + Max);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">/*</span><br><span class="line">题目描述</span><br><span class="line">把一个n的序列分为两个非空子序列，使两个序列的平均值之和最小</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数学公式测试</title>
+      <link href="/2021/08/16/math_test/"/>
+      <url>/2021/08/16/math_test/</url>
+      
+        <content type="html"><![CDATA[<p>柳暗花明又一村…</p><span id="more"></span><p><a href="https://www.jianshu.com/p/9024d6b23c3a">公示显示错误的一个情况</a></p><p>网上找的一个最靠谱的，就是上问的链接，next自带了mathjax和katex两种数学公式支持</p><p><a href="https://www.jianshu.com/p/e74eb43960a1">markdown数学公式大全</a></p><p>$$underbrace{a+b+cdots+z}$$</p><p>网上的博客大多都是转载哥，有用的东西少之又少，真是在浪费生命！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>有什么经得起考验</title>
+      <link href="/2021/08/16/%E7%9F%B3%E4%B9%8B%E5%BF%83/"/>
+      <url>/2021/08/16/%E7%9F%B3%E4%B9%8B%E5%BF%83/</url>
+      
+        <content type="html"><![CDATA[<p>折腾了半天的博客，写给哈皮的自己</p><span id="more"></span><h3 id="逼逼赖赖"><a href="#逼逼赖赖" class="headerlink" title="逼逼赖赖"></a>逼逼赖赖</h3><p>博客断断续续可以说是折腾了快一个月，以及好几个小时的精力，估计之后还要炸，但是肯定不能轻易的推翻重来了</p><h3 id="详略完全不得当的过程"><a href="#详略完全不得当的过程" class="headerlink" title="详略完全不得当的过程"></a>详略完全不得当的过程</h3><p>额，其实我已经忘了事情的起因是什么了，那就随便编造一个吧！反正导火索并不重要，重要的是我这毛病得改改了</p><p>大概是某一天。阳光明媚的下午，快乐的syh看着某样技术，或者又有了记录的欲望，于是决定打开他已经腐朽了的博客，开始折磨他的青轴</p><p>但变故还是发生了，<del>giegie的手指被划伤了</del>syh发现他的博客不能插入数学公式了</p><p>这要涉及到一个傻逼的问题，2019年的syh照着洛谷日报的<a href="https://www.luogu.com.cn/blog/Venus/build-hexo-github-blog">某一篇</a>搭建了他的博客，那段时间hexo+github博客搭建盛行，教程满天飞，过程虽然坎坷，但是还是有参考可言，在这段时间，syh写了很多浮夸的笔记题解，在CSP2019结束之后，因为辣眼睛的成绩syh决定删除博客，并且使用小号搭建另一个博客，作为自己的日记，等着哪天东山再起</p><p>问题就出在这里，直到小号hexo deploy失败之后，syh才意识到严重的问题，一台电脑只能支持一个tooken，他现在的情况类似绑定了大号，那么小号和大号到此为止之间的信息配置就开始纠缠不清</p><p>2021年的某个下午，syh发现他的博客不能顺利插入数学公式，想起了往事，这次他聪明的处理了两个账号之间的纠葛，却发现配置mathjax的教程还停留在2019年，更要命的是，2021年，syh变得鲁莽，因此他自信的照着网上随便找的一个教程修改了mathjax对应渲染（名字我也记不住哈）的文件，一通操作发现失败，于是又找了另一个教程，在按照第二个修改的时候，发现相关的数学渲染文件又打结了。。</p><p>于是愤怒的syh一怒之下删除了小号博客，开了第三个坑，放弃配置简陋的小号博客，重新搞起，来到了最近一段时间的噩梦的开端</p><p>syh继续按照老教程配置，老鸟的梅开三度并不顺利，没有想到连hexo server命令都无法执行，于是又是对文件做了多次类似关机重启的操作</p><p>中间又作死的试图重新试了试gridea，未果。 奇奇怪怪的隐藏炸弹增加了！</p><p>最后碰到的一个比较大的问题是无法deploy到github，syh在多次重配ssh key以及重建仓库未果的情况下又被折磨了好几个小时，直到一次重建瞄到了settings里的deploy key，“还有这等好事？”，syh试了试，这次成功了</p><p>是的，数个小时累计之后，总算好了。</p><p>但是syh已经拥有了一颗石之心[doge]，热情被消耗殆尽，再也没有写blog的欲望，可能是因为他选择了拿走爱丽丝的玫瑰把</p><h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>在这个陈述里面我并没有过多展开失败的原因，遇到的问题，只是想告诉自己，提醒自己，三思而行，最重要的一点，<strong>让子弹飞一会</strong></p><h3 id="23：00追更"><a href="#23：00追更" class="headerlink" title="23：00追更"></a>23：00追更</h3><p>挂clash才能用edge上github，不然直接deploy都会403，解决方案是在新的deploy之前先用edge打开一下github页面？？或者多d几发？</p><p>不晓得，看来在绝对的未知勉强，运气才是王道</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 经历 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
