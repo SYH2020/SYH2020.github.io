@@ -284,6 +284,7 @@ blockquote {
   color: var(--blockquote-color);
   margin: 0;
   padding: 0 15px;
+  word-break: break-all;
 }
 blockquote cite::before {
   content: '-';
